@@ -57,4 +57,4 @@ The source code of this repository is released under the Apache License 2.0. The
 ### Clinician Annotation Examples
 ![](https://raw.githubusercontent.com/BioMed-VITAL/BioMed-VITAL.github.io/main/images/appendixH_00.png) 
 
-For more information, access to the dataset, and to contribute, please visit our [GitHub repository](https://github.com/yourrepo/biomed-vital).
+For more information, access to the dataset, and to contribute, please visit our [Website](https://biomed-vital.github.io/).
