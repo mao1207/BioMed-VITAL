@@ -41,7 +41,7 @@ You can download the original images from the following link:
 
 | Data file name                                                              | File Size |
 | ---------------------------------------------------------------------------- | --------- |
-| [PMC_image_urls.jsonl](https://huggingface.co/datasets/mao1207/BioMed-VITAL-instructions/blob/main/PMC_image_urls.jsonl) | 129 MB     |
+| [PMC_image_urls.jsonl](https://github.com/mao1207/BioMed-VITAL/blob/main/data/PMC_image_urls.jsonl) | 129 MB     |
 
 ## License
 
