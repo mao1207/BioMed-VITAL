@@ -20,13 +20,13 @@ Results show that the model tuned with the instruction-following data from our m
 2. We propose a paradigm involving clinician preference during generation and an effective data selection model based on a mixture of preferences. It is shown that our distilled data selection model excels in matching human preferences compared with judgments of GPT-4.
 3. To facilitate further study, we release 80K clinician preference-aligned instruction-following datasets generated and selected from ours, along with the models instruction-tuned based on them.
 
-# BioMed-VITAL Instructions
+## BioMed-VITAL Instructions
 
 Based on the PMC-15 dataset, we utilized the `gpt-4-vision-preview` API to generate multi-round QA instructional data and conducted a two-stage clinician preference alignment process, selecting 60K and 80K language-image instruction-following samples. Additionally, we combined the filtered 80K samples with 10K and 60K samples provided by LLaVA-Med, resulting in a larger dataset of 150K samples (80K+10K+60K). We also offer an intermediate dataset of 60K samples that only incorporates the second stage of preference distillation, merging these to form a dataset of 210K samples (80K+10K+60K+60K).
 
 You can access the dataset on [HuggingFace Dataset](https://huggingface.co/datasets/mao1207/BioMed-VITAL-instructions).
 
-## Dataset Files
+### Dataset Files
 
 | Data file name                                                                 | File Size | Sample Size        |
 | ------------------------------------------------------------------------------ | --------- | ------------------ |
@@ -35,7 +35,7 @@ You can access the dataset on [HuggingFace Dataset](https://huggingface.co/datas
 | [BioMed-VITAL-instructions-150K.json](https://huggingface.co/datasets/mao1207/BioMed-VITAL-instructions/blob/main/BioMed-VITAL-instructions-150K.json) | 309 MB     | 60K + 10K + 80K     |
 | [BioMed-VITAL-instructions-210K.json](https://huggingface.co/datasets/mao1207/BioMed-VITAL-instructions/blob/main/BioMed-VITAL-instructions-210K.json) | 463 MB     | 80K + 10K + 60K + 60K |
 
-## Original Images
+### Original Images
 
 You can download the original images from the following link:
 
